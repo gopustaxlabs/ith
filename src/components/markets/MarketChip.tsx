@@ -1,3 +1,4 @@
+
 import { cn } from "@/lib/utils";
 
 interface MarketChipProps {
@@ -15,9 +16,9 @@ export const MarketChip: React.FC<MarketChipProps> = ({
     <button
       onClick={onClick}
       className={cn(
-        "self-stretch border gap-2.5 whitespace-nowrap px-5 py-1 rounded-[30px] border-solid text-sm font-normal leading-none",
+        "self-stretch border gap-2.5 whitespace-nowrap px-5 py-1 rounded-[30px] border-solid text-sm font-normal leading-none transition-colors hover:bg-[#F3F3F3]",
         selected
-          ? "border-[#53B1FD] bg-[#D1E9FF] text-[#1849A9]"
+          ? "border-[#53B1FD] bg-[#D1E9FF] text-[#1849A9] hover:bg-[#C3E0F9]"
           : "border-[#E4E7EC] text-[#1D2939]",
       )}
       role="checkbox"

@@ -8,7 +8,7 @@ export const Sidebar = () => {
           alt="Partner Onboarding Background"
           className="absolute h-full w-full object-cover inset-0 max-md:hidden"
         />
-        <div className="relative max-md:hidden">
+        <div className="relative max-md:hidden mt-auto absolute bottom-10 left-20">
           <div className="text-[#1D2939] text-base font-semibold">Partner</div>
           <div className="text-[#475467] text-xs font-normal">ONBOARDING</div>
         </div>
